@@ -4,7 +4,7 @@ import lighthouse from 'lighthouse';
 // Or import puppeteer from 'puppeteer-core';
 
 // Launch the browser and open a new blank page
-const browser = await puppeteer.launch();
+const browser = await puppeteer.launch({ headless: true });
 const page = await browser.newPage();
 
 const page_url = 'https://wesjrose-gbc.github.io/desn-e5-live/' 

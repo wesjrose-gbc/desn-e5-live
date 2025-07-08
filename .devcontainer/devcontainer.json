@@ -1,0 +1,9 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "postStartCommand" : "bash /workspaces/ex-5-arathy006/codespace_startup_script.sh"
+}
